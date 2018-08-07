@@ -1,0 +1,25 @@
+<div id="editorPanel">
+    <textarea ng-model="target" class="form-control multiple" placeholder="paste link here.."></textarea>
+    <br />
+    <select class="form-control">
+        <option id="arial">Arial</option>
+        <option id="arial">Comic sans</option>
+        <option id="arial">Tahoma</option>
+        <option id="arial">Open sans</option>
+    </select>
+    <br />
+    <div class="btn-group">
+        <label><input type="checkbox" ng-model="isBold" class="btn btn-secondary"       id="B">B</label>
+        <label><input type="checkbox" ng-model="isItalic" class="btn btn-secondary"     id="I">I</label>
+        <label><input type="checkbox" ng-model="isUnderlined" class="btn btn-secondary" id="U">U</label>
+        <div class="btn-group">
+            <input type="number" class="form-control" value="11" />
+        </div>
+
+        <input type="color" ng-model='colorPicker' id="cpicker" value="" ng-change="updateColor(colorPicker)" />
+
+    </div>
+    <textarea placeholder="type in top caption.." ng-model="top_caption" class="form-control multiple"></textarea>
+    <textarea placeholder="type in bottom caption.." ng-model="bot_caption" class="form-control multiple"></textarea>
+
+</div>

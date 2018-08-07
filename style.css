@@ -1,0 +1,58 @@
+
+body {
+    background-color: #454545;
+}
+#container {
+    background-color: #454545;
+}
+
+#B {
+    font-weight: bold;
+}
+
+.boldStyle {
+    font-weight: bold;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.underlineStyle {
+    text-decoration: underline;
+}
+
+#italic {
+    font-style: italic;
+    font-family: open-sans;
+}
+
+.italicStyle {
+    font-style: italic;
+}
+
+#editorPanel {
+    padding: 20px;
+}
+
+.btn-colorpicker {
+    background-color: white;
+}
+
+textarea {
+    height: 120px;
+    margin-top: 30px;
+}
+
+#target {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+#label {
+    position: absolute;
+}
+
+img {
+    padding-top: 50px;
+}
